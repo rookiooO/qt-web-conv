@@ -5,10 +5,10 @@ import "time"
 type Model struct {
 	CreateTime time.Time
 	UpdateTime time.Time
-	CreateBy   int64
-	UpdateBy   int64
-	Status     int16
+	CreateBy   string
+	UpdateBy   string
+	Status     string
 	Sort       int32
-	IsDelete   bool
+	DelFlag    string
 	Remark     string
 }
